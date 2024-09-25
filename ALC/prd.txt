@@ -1,0 +1,14 @@
+Build a personal homepage using basic HTML tags: section, ordered list, 
+unordered list, paragraph, heading, header, anchor.
+The Home page is for Skilled workers. You are free to choose from the following
+ skill/work area niche: carpentry, Auto Body work, Marine Vessels Maintain service, 
+ Fashion Stylist, Iron Fabrication, Cleaning Service, DJ/beat maker, Artist, Trucker et.c 
+
+1. On the page there should be nav menu to navigate round the page.
+2.You page must have these sections: Hero section, Service Section, Testimony Section, 
+Contact Section, Past Project     Section
+3. Ensure that the content of your page and each section is relevant to the niche you have chosen.
+
+Happy Hacking
+
+codegienuel@gmail.com

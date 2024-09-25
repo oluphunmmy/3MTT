@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    justify-content: center;
+    margin: 10px 100px;
+    padding: 10px 50px;
+    /* align-items: center; 
+    align-content: center; */
+
+}
+header{
+    font-style: normal;
+    color: red;
+}
+
+p{
+    color: rgb(30, 116, 30);
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+img{
+    width: 300;
+    height:fit-content;
+    border: 5%;
+    padding: 2% 2%;
+    background-color: blueviolet;
+}
+ul{
+    font-style: normal;
+    font-size: 18px;
+    color: blue;
+    flex: auto;
+    flex-wrap: wrap;
+
+}

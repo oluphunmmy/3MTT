@@ -1,0 +1,24 @@
+WEEK 2 TASK:
+
+Assignment 1: Basic Web Page Design
+Create a simple web page using HTML that includes the following elements:
+1. A header with a title (using the <h1> tag).
+2. A paragraph of text (using the <p> tag).
+3. An image (using the <img> tag).
+4. A list, which can be either ordered or unordered (using the <ul> or <ol> tags).
+
+Assignment 2: Styling with CSS
+● Task: Take the HTML page you created in Assignment 1 and apply CSS styling to improve its appearance.
+Specifically:
+1. Change the font, color, and size of the headings and paragraphs.
+2. Add a border and some padding around the image.
+
+WEEK 3 TASK:
+Assignment 2: Building a Web Page with HTML
+
+● Task: Create a simple web page using HTML that includes the following elements:
+1. Add a header with a title (<h1>) and a subtitle (<h2>).
+2. Write a formatted paragraph (<p>) using <strong> or <em> to emphasize text.
+3. Insert an image (<img>) with alt, width, and title attributes.
+4. Create a list (ordered or unordered) with at least one nested list.
+5. Add an internal link within the page and an external link that opens in a new tab.
