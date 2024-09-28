@@ -1,0 +1,36 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* ID selector */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Class selector */
+.content {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Descendant selector */
+.content h2 {
+    color: #4CAF50;
+}
+
+/* Sibling selector */
+.content + .content {
+    background-color: #f0f0f0;
+}
+
+/* Pseudo-class selector for links */
+.footer-link:hover {
+    color: red;
+    text-decoration: underline;
+}

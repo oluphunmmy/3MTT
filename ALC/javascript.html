@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Javascript</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+
+<body>
+    <h1>My Javascript Class</h1>
+
+    <script type="text/javascript" src="js.css">
+        //DATA TYPE
+        //Primitive:boolean, number, string
+        //VARIABLE INITIALIZATION
+        //1. using var, let, const
+        var first_name = "Johny";
+        var middle_name = "Beyonda";
+        var full_name = first_name + " " + middle_name;
+        document.write(`<h1>WElcome to my page <span>${full_name} </span></h1>`);
+
+
+        var name = "Opeyemi"
+        document.write(`<br>Welcome to my page ${name}`);//template string calling
+
+        let formal_age = Number(prompt("Enter your age"));
+        console.log(typeof(formal_age));
+        document.write(`Your formal age is ${formal_age}, you are eligibible for grant`);
+
+        //NUmber
+        //operators
+        current_age = formal_age +1
+        document.write(`<br> your current age is ${current_age}, you are eligible for grant`)
+
+        var last_name = prompt("Enter your last name");
+        document.write(`<h1>Welcome ${last_name}</h1>`);
+
+        var Age = Number(prompt("Your age is"));// alternative wittten as
+        //var age = 
+        document.write(`<h1> <span>${last_name} </span>Welcome to our midst</h1>`);
+        console.log(typeof{Age});
+    </script>
+
+    
+</body>
+</html>
