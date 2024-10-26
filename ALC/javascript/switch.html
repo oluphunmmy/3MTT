@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <h2>Book Library</h2>
+    <select name="subject" id="selectedSubject">
+        <option value="-"> ---- </option>
+        <option value="mathematics">Mathematics</option>
+        <option value="science">Science</option>
+        <option value="economics">Economics</option>
+        <option value="chemistry">Chemistry</option>
+    </select>
+    <br />
+    <button onclick="verifyBook()">Done</button>
+    <br/>
+    <hr>
+    <br/>
+    <ul id="list">
+       
+    </ul>
+
+    <script type="text/javascript">
+        function verifyBook(){
+            var book =  document.getElementById("selectedSubject").value
+            document.write("Entering into an switch block...");
+            switch (book) {
+                case "mathematics": document.write("Mathematics book selected"); 
+                break;
+                case "sciences": document.write("Sciences book selected");
+                break;
+                case "economics": document.write("Economics book selected");
+                break;
+                case "chemistry": document.write("Chemistry book selected");
+                break;
+
+                default: document.write("no book has been selected");
+            }
+            }
+
+            // ITERATION STATEMENT
+            // For loop
+            // for (initialization expression; test condition; update expression){
+                //body of the 'for' loop;
+             //}
+           
+            const list = document.getElementById("list");    
+             for (let i= 1; i < 6; i++){
+                console.log(i);
+                let li = document.createElement("li");
+                li.textContent = `Round ${i}`;
+                list.appendChild(li);
+             }
+
+
+             ////////////////////
+              const fruits = ["Mango", "Apple", "Android", "Pawpaw"];
+                for (let i = 0; i < fruits.length; i++) {
+                    console.log(i);
+                    let li = document.createElement("li");
+                    li.textContent = `Round ${i}`;
+                    li.textContent = `${fruits[i]}`;
+                    list.appendChild(li);
+                }
+                //forEach
+                fruits.forEach((item) => {
+                    let li = document.createElement("li");
+                    li.textContent = `${item}}`;
+                    list.appendChild(li);
+                })
+            //WHILE
+            let noStudent = 0;
+            while (noStudent< 4) {
+                    console.log("from student while", noStudent);
+                    noStudent ++;
+                }
+
+            //DO WHILE
+            let noOfLogin = 0;
+            do {
+                console.log(noOfLogin)
+                noOfLogin --;
+            } while (noOfLogin > 0);
+
+            /// breaks
+            function addNumber(){
+                let a = 5; 
+                let b = 2;
+                result = a + b;
+                return result;
+            }
+            document.write(`${addNumber() }`);
+    </script>
+   
+</body>
+</html>

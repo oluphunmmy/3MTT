@@ -1,0 +1,169 @@
+/* Element selector */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+/* Element Selector */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+/* ID Selector */
+#header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Class Selector */
+.content-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+.content-section-trans {
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #ddd;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.content-section-trans .btn{
+    font-size: larger;
+
+}
+.content-section-trans h2{
+    color: red;
+}
+
+/* Pseudo-class selector */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Descendant Selector */
+#footer p {
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    align-content: center;
+}
+
+/* Sibling Selector */
+h2 + p {
+    color: #666;
+}
+
+/* Responsive Design: Media Queries */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .content-section {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .content-section {
+        padding: 10px;
+    }
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Flexbox elements */
+.flex-item {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Transitions */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    size: 24px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+img{
+    opacity: 0.5;
+    animation: img_tsp 2s linear infinite;
+}
+
+@keyframes img_tsp{
+    to {
+        opacity: -0.6;
+        /* background-color: blue; */
+    }
+}
+
+/* Animation with @keyframes */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+.animate {
+    display: block;
+    animation: bounce 1s infinite;
+    color: red;
+    margin: 60px auto;
+}

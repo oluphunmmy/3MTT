@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Example</title>
+</head>
+<body>
+    <!--Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+
+Automatically
+Using var
+Using let
+Using const-->
+
+<!--JavaScript has 8 Datatypes
+String
+Number
+Bigint
+Boolean
+Undefined
+Null
+Symbol
+Object-->
+    <!-- HTML structure -->
+     <!--Arithmetic operations
+    Examples:  
+        The Assignment Operator = assigns values
+        The Addition Operator + adds values
+        The Multiplication Operator * multiplies values
+        The Comparison Operator > compares values-->
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Arithmetic Operations</h2>
+    <p>A typical arithmetic operation takes two numbers (or expressions) and produces a new number.</p>
+    
+    <h1>Simple JavaScript Example</h1>
+    <p id="greeting"></p>
+    
+    <!-- A button to trigger an action -->
+    <button id="actionButton">Click me!</button>
+    <p id="demo1"></p>
+    
+    <!-- JavaScript code -->
+    <script>
+        // Variables, data types, and calculations
+        var userName = "John";  // String variable
+        var userAge = 25;       // Number variable
+        var currentYear = 2024; // Another number variable
+
+        // Calculate the birth year
+        var birthYear = currentYear - userAge; // Using arithmetic operators
+
+        let a = 3; //statement in javascript
+        let x = (100 + 50) * a;
+        document.getElementById("demo1").innerHTML = x;
+
+        // Display a greeting message using variables and string concatenation
+        var greetingMessage = "Hello, " + userName + "! You were born in " + birthYear + ".";
+        document.getElementById("greeting").innerText = greetingMessage; // Manipulating the DOM
+
+        // Control flow: if/else statement is used to perform different actions based on different conditions
+        if (userAge >= 18) {
+            console.log("You are an adult.");
+        } else {
+            console.log("You are a minor.");
+        }
+
+        // Function to display a message when the button is clicked
+        function showMessage() {
+            // Control flow: loop. loop is used to execute a block of code a number of times
+            for (var i = 0; i < 5; i++) {
+                console.log("This is message number " + (i + 1));
+            }
+            alert("Button clicked! Check the console for more info.");
+        }
+
+        // DOM interaction: adding an event listener to the button
+        document.getElementById("actionButton").addEventListener("click", showMessage);
+    </script>
+</body>
+</html>

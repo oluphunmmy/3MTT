@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Welcome to  My Task Tracker</h1>
+        
+        <div id="userInfo">
+            <input type="text" id="userName" placeholder="Enter your name" required><br><br>
+            <input type="number" id="userAge" placeholder="Enter your age" required><br><br>
+            <button onclick="checkUser()">Start Tracking</button>
+        </div>
+        
+        <div id="taskSection" style="display:none;">
+            <h2>Tasks</h2>
+            <input type="text" id="taskName" placeholder="Task name" required>
+            <input type="date" id="dueDate" required>
+            <button onclick="addTask()">Add Task</button>
+            
+            <div id="tasksList"></div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    }
+    
+    .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    /* height: 400px; */
+    text-align: center;
+    }
+    
+    .headnote {
+    text-align: center;
+    line-height: .2;
+    }
+    .input-container {
+    margin-bottom: 15px;
+    }
+    p {
+    font-size: 2vmin;
+    }
+    input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    .result {
+    background-color: #b1f934;
+    /* Mint green */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    }
+    
+    .button-container {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+    }
+    #result {
+    line-height: .1;
+    }
+    
+    #calculate {
+    background-color: black;
+    /* Black button */
+    color: white;
+    }
+    
+    #reset {
+    background-color: #d3d3d3;
+    /* Dirty white */
+    color: black;
+    }
+    
+    #calculate:hover {
+    background-color: #333;
+    /* Darker black on hover */
+    }
+    
+    #reset:hover {
+    background-color: #b0b0b0;
+    /* Darker dirty white on hover */
+    }
